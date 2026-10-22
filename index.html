@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Gilman Quote (Demo)</title>
+<meta name="description" content="Demo app: send a Gilman Brothers foam board quote request in a few taps.">
+<meta name="theme-color" content="#085a72">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Gilman Quote">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/favicon.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="mark" aria-hidden="true">G</span><span class="wm"><b>Gilman</b> Quote</span><span class="demo" title="Demo build – not an official Gilman Brothers app">Demo</span></div>
+  <button class="icon-btn" id="btnInstall" aria-label="How to install" hidden>⤓</button>
+</header>
+<main id="main">
+  <section class="view" id="v-quote" data-view="quote"></section>
+  <section class="view" id="v-deals" data-view="deals" hidden></section>
+  <section class="view" id="v-explore" data-view="explore" hidden></section>
+  <section class="view" id="v-share" data-view="share" hidden></section>
+  <section class="view" id="v-me" data-view="me" hidden></section>
+</main>
+<nav class="tabs" role="tablist" aria-label="Sections">
+  <button role="tab" data-tab="quote" aria-selected="true"><i aria-hidden="true">✉︎</i><span>Quote</span></button>
+  <button role="tab" data-tab="deals" aria-selected="false"><i aria-hidden="true">🔥</i><span>Hot Deals</span><b class="badge" id="dealBadge" hidden>0</b></button>
+  <button role="tab" data-tab="explore" aria-selected="false"><i aria-hidden="true">◎</i><span>Explore</span></button>
+  <button role="tab" data-tab="share" aria-selected="false"><i aria-hidden="true">▣</i><span>Share</span></button>
+  <button role="tab" data-tab="me" aria-selected="false"><i aria-hidden="true">☺︎</i><span>Me</span></button>
+</nav>
+<div class="sheet-bg" id="sheetBg" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" hidden><div class="sheet-grab"></div><div id="sheetBody"></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script src="vendor/qrcode.js"></script>
+<script src="push-config.js"></script>
+<script src="push.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "updated": "2026-10-21",
+  "demo": true,
+  "items": [
+    {
+      "id": "demo-infinity-3mm-tl",
+      "tag": "HOT",
+      "title": "DEMO: INFINITY® 3mm truckload opportunity",
+      "details": "Example item showing how a stock or truckload special appears. Not a real offer. INFINITY 3mm is the recyclable alternative to expanded PVC; full truckloads ship prepaid (up to three stops) per Gilman's freight policy.",
+      "starts": "2026-10-01",
+      "expires": "2026-11-30",
+      "pinned": true,
+      "region": "All regions",
+      "products": ["infinity"],
+      "link": "https://gilmanbrothers.com/infinity/",
+      "cta": { "label": "Quote this deal", "productId": "infinity", "gauge": "3mm", "size": "48\" x 192\" (3mm)", "color": "White core / White faces", "qty": "", "unit": "truckload" }
+    },
+    {
+      "id": "demo-align-launch",
+      "tag": "NEW",
+      "title": "DEMO: Resilient® ALIGN® for photo labs and frame shops",
+      "details": "Example new-product push. Slide-into-place, pressure-activated mounting with a display-ready black edge. Pair it with ADHERE™ removable wall fasteners.",
+      "starts": "2026-10-01",
+      "expires": "2026-12-31",
+      "region": "All regions",
+      "products": ["resilient-align", "adhere"],
+      "link": "https://gilmanbrothers.com/resilient-align/",
+      "cta": { "label": "Quote ALIGN", "productId": "resilient-align", "gauge": "1/2\"", "size": "50\" x 87\"", "color": "Black core / White liner", "unit": "sheets" }
+    },
+    {
+      "id": "demo-eaglecell-pop",
+      "tag": "SPECIAL",
+      "title": "DEMO: EAGLECELL® for plastic-free retail POP",
+      "details": "Example special opportunity for brands moving POP and packaging off plastic. All-paper, Blue Bin qualified honeycomb board.",
+      "starts": "2026-10-01",
+      "expires": "2026-12-15",
+      "region": "Northeast",
+      "products": ["eaglecell"],
+      "link": "https://gilmanbrothers.com/sustainability/",
+      "cta": { "label": "Quote EAGLECELL", "productId": "eaglecell", "gauge": "1/2\"", "size": "48\" x 96\"", "color": "White/Kraft/White", "unit": "sheets" }
+    },
+    {
+      "id": "demo-expired",
+      "tag": "HOT",
+      "title": "DEMO: expired item (hidden)",
+      "details": "This item expired and should not show in the app.",
+      "expires": "2026-10-01",
+      "products": ["ryno-board"]
+    }
+  ]
+}
